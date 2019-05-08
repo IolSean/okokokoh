@@ -1,9 +1,5 @@
-import math
-import os
-import sys
-from os import rename
-
 import requests
 
-name = input("Your name? ")
-print("Hello,", name)
+r = requests.get("http://coreyms.com'")
+print(r.status_code)
+print(r.ok)
