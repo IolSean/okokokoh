@@ -4,7 +4,7 @@ import csv
 
 page = requests.get("https://freedomhouse.org/report/countries-world-freedom-2019")
 
-# Create a BeautifulSoup object
+# Create a BeautifulSoup object asdf
 soup = BeautifulSoup(page.text, "html.parser")
 
 # get the country list
